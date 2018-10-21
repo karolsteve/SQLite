@@ -10,7 +10,7 @@ class DbHelper : SQLiteOpenHelper {
         self.init(version, dbName)
     }
 
-    //Call when database if created
+    //Call when database is created
     func onCreate(database : SQLiteDatabase){
         database.exec("CREATE TABLE test...") //Create tables and add triggers 
     }
