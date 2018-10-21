@@ -1,5 +1,7 @@
 # SQLite
 Wrapper around C SQLite interface that allows you to use SQLite in iOS as on Android with a little change
+## How it's work
+Just Add theses files to your project. see below section for how to use
 ## Example
 ```Swift
 class DbHelper : SQLiteOpenHelper {
