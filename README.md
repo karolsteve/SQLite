@@ -10,7 +10,6 @@ class DbHelper : SQLiteOpenHelper {
         self.init(version, dbName)
     }
 
-    ---
     //Call when database if created
     func onCreate(database : SQLiteDatabase){
         database.exec("CREATE TABLE test...") //Create tables and add triggers 
@@ -25,8 +24,5 @@ class DbHelper : SQLiteOpenHelper {
     func onDowngrade(database : SQLiteDatabase){
         fatalError("Downgrade not supported")
     }
-
-    ---
-
 }
 ```
